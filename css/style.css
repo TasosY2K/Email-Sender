@@ -1,0 +1,136 @@
+/*
+ _____                _ _         
+|  ___|              (_) |        
+| |__ _ __ ___   __ _ _| |        
+|  __| '_ ` _ \ / _` | | |        
+| |__| | | | | | (_| | | |        
+\____/_| |_| |_|\__,_|_|_|        
+                                                                  
+ _____                _           
+/  ___|              | |          
+\ `--.  ___ _ __   __| | ___ _ __ 
+ `--. \/ _ \ '_ \ / _` |/ _ \ '__|
+/\__/ /  __/ | | | (_| |  __/ |   
+\____/ \___|_| |_|\__,_|\___|_|   
+
+By r00t_us3r_198 & d3pl01t
+*/
+body {
+     letter-spacing: 0.3;
+     font-family: monospace, sans-serif;
+     font-weight: 500;
+     font-size: 19px;
+     color: #fff;
+     background-color: #000;
+     align-items: center;
+     text-align: center;
+}
+
+::-webkit-scrollbar {
+     display: none;
+}
+
+::placeholder {
+     color: white;
+     opacity: 1;
+}
+
+:-ms-input-placeholder {
+     color: white;
+}
+
+::-ms-input-placeholder {
+     color: white;
+}
+
+input[type=text] {
+     height: 15;
+     width: 45;
+     padding: 8px 15px;
+     box-sizing: border-box;
+     font-size: 16px;
+     resize: none;
+     text-align: center;
+     background-color: black;
+     color: white;
+     font-weight: 500;
+     outline: none;
+     border: 2px solid white;
+}
+
+input[name=to] {
+     color: white;
+}
+
+input[type=password] {
+     height: 15;
+     width: 45;
+     padding: 8px 15px;
+     box-sizing: border-box;
+     font-size: 16px;
+     resize: none;
+     text-align: center;
+     background-color: black;
+     color: white;
+     font-weight: 500;
+     outline: none;
+     border: 2px solid white;
+}
+
+input[type=submit] {
+     height: 60px;
+     width: 100px;
+     border: 2px solid #fff;
+     color: #fff;
+     background-color: #000;
+     font-weight: 500;
+     text-align: center;
+     text-decoration: none;
+     margin: 20px 20px;
+     transition-duration: 0.6s;
+     cursor: pointer;
+}
+
+input[type=submit]:hover {
+     background-color: #435057;
+}
+
+input[type=send] {
+     color: #fff;
+}
+
+html {
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+     margin: 15px 0;
+     padding: 0;
+     list-style: none;
+}
+
+p {
+     font-size: 40px;
+}
+
+a {
+     text-decoration: none;
+     color: white;
+     transition-duration: 0.2s;
+}
+
+#rectangle{
+     border: 3px solid #fff;
+     padding: 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin: 10px 10px;
+     transition-duration: 0.6s;
+}
+
+#rectangle:hover {
+     background-color: #435057;
+     padding: 0px;
+}

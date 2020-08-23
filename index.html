@@ -1,0 +1,56 @@
+<!--
+ _____                _ _         
+|  ___|              (_) |        
+| |__ _ __ ___   __ _ _| |        
+|  __| '_ ` _ \ / _` | | |        
+| |__| | | | | | (_| | | |        
+\____/_| |_| |_|\__,_|_|_|        
+                                                                
+ _____                _           
+/  ___|              | |          
+\ `--.  ___ _ __   __| | ___ _ __ 
+ `--. \/ _ \ '_ \ / _` |/ _ \ '__|
+/\__/ /  __/ | | | (_| |  __/ |   
+\____/ \___|_| |_|\__,_|\___|_|   
+
+By r00t_us3r_198 & d3pl01t
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email Sender</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Email Sender" />
+        <link rel="shortcut icon" href="assets/icon.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    </head>
+    <body>
+        <p>Email Sender</p>
+        <form action="send.php" method="post">
+            <div id="rectangle">
+                <input type="text" name="to" placeholder="To">
+            </div>
+            <br>
+            <div id="rectangle">
+                <input type="text" name="from" placeholder="From">
+            </div>
+            <br>
+            <div id="rectangle">
+                <input type="text" name="message" placeholder="Message">
+            </div>
+            <br>
+            <div id="rectangle">
+                <input type="text" name="subject" placeholder="Subject">
+            </div>
+            <br>
+            <div id="rectangle">
+                <input type="password" name="pass" placeholder="Pass">
+            </div>
+            <br>
+            <input type="submit" value="Send">
+            <input type="hidden" name="action" id="hiddenAction">
+        </form>
+        <audio autoplay="true" src="assets/music.mp3">
+    </body>
+</html>
